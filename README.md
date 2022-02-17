@@ -409,7 +409,7 @@
 <div align=center> Model Architecture of the Trial </div>
 
 **실험 배경**
-- 캡셔닝 성능이 많이 개선되었지만, 일부 이미지에 대해 비슷한 캡션을 출력하는 오류를 확인하여, 이에 대해 과적합(overfitting) 때문이 아닐까 생각했습니다.
+- 캡셔닝 성능이 많이 개선되었지만, 일부 사람만 등장하는 이미지에 대해 비슷한 캡션을 출력하는 오류를 확인하여, 이에 대해 혹시 과적합(overfitting)으로 인한 문제가 아닐까 생각했습니다.
 - Trial 5와 동일한 설정에서 cross validation을 추가하여 학습하면서 overfitting에 대한 모니터링을 진행했습니다. 그리고 validation loss가 더 이상 낮아지지 않는 지점의 모델을 찾았습니다.
 
 **실험 내용**
